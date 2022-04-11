@@ -1,6 +1,6 @@
 {% set name = "datalad-container" %}
 {% set pypiname = "datalad_container" %}
-{% set version = "1.1.4" %}
+{% set version = "1.1.6" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ pypiname[0] }}/{{ pypiname }}/{{ pypiname }}-{{ version }}.tar.gz
-  sha256: 2a80cf95a1ac21df63337db7daec7d7f02526e4a12bfee2b3df2bfd371e031f1
+  sha256: 88d728d637b2365e2cb761349be6ec7cd1b5ff61b1e0f89b4616d220de957e13
 
 build:
   number: 0
