@@ -8,5 +8,5 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 
 if [ "$(uname)" = "Linux" ] || hash git-annex; then
-    python -m nose -s -v datalad_container
+    python -m pytest -s -v --pyargs datalad_container
 fi
