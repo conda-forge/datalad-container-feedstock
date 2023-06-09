@@ -1,11 +1,11 @@
-About datalad-container
-=======================
+About datalad-container-feedstock
+=================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datalad-container-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/datalad/datalad-container
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datalad-container-feedstock/blob/main/LICENSE.txt)
 
 Summary: DataLad extension package for working with containerized environments
 
